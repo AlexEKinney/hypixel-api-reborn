@@ -196,6 +196,11 @@ class TurboKartRacers {
      * @type {number}
      */
     this.grandPrixTokens = data.grand_prix_tokens || 0;
+    /**
+     * Lobby Resource Pack Status
+     * @type {boolean}
+    */
+    this.lobbyResourcePack = data.lobby_resource_pack || 'false';
   }
 }
 module.exports = TurboKartRacers;

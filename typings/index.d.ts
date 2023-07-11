@@ -786,6 +786,7 @@ declare module 'hypixel-api-reborn' {
     blueTorpedoHit: number;
     grandPrix: boolean;
     grandPrixTokens: number;
+    lobbyResourcePack: boolean;
   }
   class Walls {
     constructor(data: Record<string, unknown>);
@@ -2596,6 +2597,8 @@ declare module 'hypixel-api-reborn' {
     coins: number;
     totalVotes: number;
     totalWins: number;
+    superVotes: number;
+    music: boolean;
     wins: {
       solo: number,
       team: number,

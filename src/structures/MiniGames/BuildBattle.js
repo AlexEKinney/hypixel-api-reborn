@@ -27,6 +27,16 @@ class BuildBattle {
      */
     this.totalVotes = data.total_votes || 0;
     /**
+     * Super votes
+     * @type {number}
+     */
+    this.superVotes = data.super_votes || 0;
+    /**
+     * Music
+     * @type {boolean}
+     */
+    this.music = data.music || true;
+    /**
      * Total wins
      * @type {number}
      */
